@@ -13,6 +13,9 @@
       "require": "./*.js"
     }
   },
+  "files": [
+    "*.js"
+  ],
   "scripts": {
     "prepare": "husky",
     "test": "echo \"Error: no test specified\" && exit 1"
