@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "useUnknownInCatchVariables": false,
+    "moduleResolution": "Bundler",
+    "module": "ESNext",
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "removeComments": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "allowJs": true
+  },
+  "include": ["**/*.ts", "**/*.js"],
+  "exclude": ["node_modules", "dist"]
+}
