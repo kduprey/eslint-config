@@ -1,7 +1,6 @@
 {
   "name": "@hausofweb/eslint-config",
   "version": "1.0.0",
-  "private": "true",
   "repository": {
     "type": "git",
     "url": "https://github.com/hausofweb/eslint-config.git"
@@ -23,7 +22,15 @@
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
-    ]
+    ],
+    "rules": {
+      "body-max-line-length": [
+        0
+      ],
+      "subject-case": [
+        0
+      ]
+    }
   },
   "config": {
     "commitizen": {
