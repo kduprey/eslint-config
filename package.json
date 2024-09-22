@@ -8,8 +8,8 @@
   "license": "MIT",
   "exports": {
     ".": {
-      "import": "./*.js",
-      "require": "./*.js"
+      "import": "./index.js",
+      "require": "./index.js"
     }
   },
   "files": [
