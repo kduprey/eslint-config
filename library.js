@@ -71,7 +71,7 @@ module.exports = {
       "error",
       {
         cases: { camelCase: true, pascalCase: true },
-        ignore: ["(not-found|global-error).(js|jsx|ts|tsx)"],
+        ignore: ["(not-found|global-error|next-env).(js|jsx|ts|tsx)"],
       },
     ],
   },
