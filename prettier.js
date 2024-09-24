@@ -1,7 +1,7 @@
 // @ts-check
 /** @type {import("eslint").Linter.Config} */
 
-export default {
+module.exports = {
   extends: ["@vercel/style-guide/prettier"],
   plugins: ["prettier-plugin-packagejson"],
 };
