@@ -39,6 +39,15 @@ module.exports = {
   rules: {
     "@typescript-eslint/adjacent-overload-signatures": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-misused-promises": [
+      "error",
+      {
+        checksVoidReturn: {
+          arguments: false,
+          attributes: false,
+        },
+      },
+    ],
     "@typescript-eslint/sort-type-constituents": "off",
     "import/no-default-export": "off",
     "import/order": "off",
