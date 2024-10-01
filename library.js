@@ -57,7 +57,7 @@ module.exports = {
       {
         message: "Unexpected property on console object was called",
         selector:
-          "CallExpression[callee.object.name='console'][callee.property.name!=/^(warn|error|info|trace|assert)$/]",
+          "CallExpression[callee.object.name='console'][callee.property.name!=/^(warn|error|info|trace|assert|debug)$/]",
       },
     ],
     "prefer-arrow-functions/prefer-arrow-functions": "error",
