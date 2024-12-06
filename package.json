@@ -41,7 +41,7 @@
     ]
   },
   "dependencies": {
-    "next": "15.0.3"
+    "next": "15.0.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.0",
