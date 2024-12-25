@@ -1,11 +1,9 @@
-const library = require("./library");
-const next = require("./next");
-const prettier = require("./prettier");
-const react = require("./react");
-const server = require("./server");
+import react from "./react";
+import server from "./server";
+import next from "./next";
+import prettier from "./prettier";
 
-module.exports = {
-  library,
+export default {
   next,
   prettier,
   react,
