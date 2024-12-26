@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hausofweb/eslint-config.git"
+    "url": "git+https://github.com/hausofweb/eslint-config.git"
   },
   "license": "MIT",
   "main": "index.js",
@@ -41,7 +41,6 @@
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
-      "@semantic-release/changelog",
       "@semantic-release/npm",
       "@semantic-release/github"
     ]
