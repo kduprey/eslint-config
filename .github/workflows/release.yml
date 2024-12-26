@@ -19,8 +19,6 @@ jobs:
       issues: write # to be able to comment on released issues
       pull-requests: write # to be able to comment on released pull requests
       id-token: write # to enable use of OIDC for npm provenance
-    env:
-      NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
 
     steps:
       - name: Generate a token
@@ -40,7 +38,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22.x
-          registry-url: "https://registry.npmjs.org"
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
